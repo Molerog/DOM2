@@ -53,7 +53,7 @@ for (cambio of imagenCambio){
 let voladores= document.querySelectorAll('.itype.flying');
 
 for (texto of voladores){
-    texto.style.background = 'yellow';
+    texto.parentNode.parentNode.style.background = 'yellow';
 }
 
 
